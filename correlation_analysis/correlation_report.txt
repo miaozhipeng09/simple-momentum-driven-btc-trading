@@ -1,0 +1,40 @@
+Factor Correlation Analysis Report
+==================================================
+Analyzed Features: 22
+Absolute Correlation Metrics:
+  Mean: 0.2294
+  Median: 0.0455
+  Maximum: 1.0000
+
+Highly Correlated Pairs (|r| > 0.7): 21
+first_trade_id & last_trade_id: +1.0000
+agg_trade_id & last_trade_id: +0.9998
+agg_trade_id & first_trade_id: +0.9998
+transact_time & first_trade_id: +0.9657
+transact_time & last_trade_id: +0.9657
+transact_time & agg_trade_id: +0.9602
+return_100 & vwap_mom_200: +0.8695
+vwap_mom_100 & vwap_mom_200: +0.8659
+vwap_mom_50 & vwap_mom_100: +0.8562
+return_50 & vwap_mom_100: +0.8386
+return_200 & vwap_mom_200: +0.8285
+price & transact_time: +0.8101
+ofi_100 & ofi_200: +0.8065
+ofi_50 & ofi_100: +0.8028
+vwap_mom_100 & return_100: +0.7879
+price & first_trade_id: +0.7853
+price & last_trade_id: +0.7853
+price & agg_trade_id: +0.7804
+return_50 & vwap_mom_50: +0.7470
+return_50 & vwap_mom_200: +0.7328
+return_200 & return_100: +0.7049
+
+Feature Correlation Distribution:
+count    484.000000
+mean       0.229419
+std        0.315358
+min        0.000010
+25%        0.002511
+50%        0.045464
+75%        0.387978
+max        1.000000
